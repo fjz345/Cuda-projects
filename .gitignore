@@ -4,3 +4,17 @@
 *.ptx
 *.cubin
 *.fatbin
+
+x64
+.vs
+*.vcxproj
+*.vcxproj.user
+*.cache
+
+*.obj
+*.deps
+*.log
+*.tlog
+
+*.ppm
+*.jpg
