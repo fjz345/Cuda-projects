@@ -7,7 +7,6 @@
 
 x64
 .vs
-*.vcxproj
 *.vcxproj.user
 *.cache
 

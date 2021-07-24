@@ -8,7 +8,6 @@
 // Compile and then...
 // Example run 1:   gauseq.exe -P 1 -I fast -n 16
 // Example run 2:   gauseq.exe -P 0 -I rand -n 2048
-
 #include "cuda_runtime.h"
 #include "device_launch_parameters.h"
 
@@ -292,7 +291,7 @@ void Init_Default()
 	N = MAX_SIZE;
 	Init = "rand";
 	maxnum = 15.0;
-	PRINT = 0;
+	PRINT = 1;
 }
 
 
